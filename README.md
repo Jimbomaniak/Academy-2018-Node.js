@@ -9,6 +9,6 @@ Route | Method | BODY | Description
 `/users/id` | DELETE | - | Delete user with ID (hex format)
 `/messages` | GET | - | List all messages
 `/messages/id`| GET | - | Get  messages with ID (hex format)
-`/messages/` | POST | {"senderId": 1, "receiverId": 2, "message": "message" } | Create new message
-`/messages/id` | PUT | {"message": "i change this message"} | Edit message 1 text
+`/messages/` | POST | {"senderId": ID, "receiverId": ID, "message": "message" } | Create new message
+`/messages/id` | PUT | {"message": "i change this message"} | Edit message text
 `/messages/id` | DELETE | - | Delete message with ID in hex format
